@@ -1,0 +1,18 @@
+:root{
+  --primary-color:#F8E8A6;
+  --secondary-color:#008860;
+}
+
+body{
+  background-color: var(--primary-color);
+}
+h1{text-align: center;}
+
+a{display: flex;
+justify-content:center;
+color: var(--secondary-color);}
+
+a:hover{color: blue;}
+
+a:visited{color: red;}
+
